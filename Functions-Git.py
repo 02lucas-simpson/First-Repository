@@ -46,3 +46,15 @@ def print_number(bekfist):
 
 print_number(13)
 print_number('\n' + 'Hello bekfist')
+
+# 4.14.4: Name & Age
+# Lucas Simpson
+# 2.18.19
+
+def name_and_age(name, age):
+
+    print('\n''Hi, my name is what? My name is who? My name is',name,'and i am',str(age),'years old')
+
+name_and_age('silca slica slim shady',46)
+name_and_age('Dr. Seuss',74)
+name_and_age('Dr.Dre',63)
