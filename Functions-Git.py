@@ -80,4 +80,17 @@ def print_multiple_times(string, times):
         print(string)
 
 
-print_multiple_times('suh suh g', 100)
+print_multiple_times('suh suh g', 4)
+
+
+# 4.14.7: Print Multiple times
+# Lucas Simpson
+# 2.19.19
+
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+
+print_multiple_times('suh suh g', 4)
+
