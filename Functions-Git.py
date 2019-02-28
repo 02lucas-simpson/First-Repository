@@ -58,3 +58,14 @@ def name_and_age(name, age):
 name_and_age('silca slica slim shady',46)
 name_and_age('Dr. Seuss',74)
 name_and_age('Dr.Dre',63)
+
+# 4.14.5: Default Parameter Values
+# Lucas Simpson
+# 2.19.19
+
+def print_two_numbers(x, y = 20):
+    print('First number: ', x)
+    print('Second number: ', y)
+
+print_two_numbers(5, 67)
+print_two_numbers(23)
